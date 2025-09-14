@@ -16,10 +16,13 @@
 > IP 통신을 할 때는 데이터에 IP헤더를 넣어 IP패킷으로 만든다. | 헤더에는 목적지 주소와 출발지 주소가 필요하다
 
 ## DNS란?
-> 내용
+> **Domain Name System**의 약자
+> 호스트 네임(www.naver.com)을 아이피 주소로 바꿔주는 역할
 
 ## Stateful과 Stateless란?
-> 내용
+> 클라이언트(Client)와 서버(Server)간의 통신을 <br>
+> Stateful 상태유지 | Stateless 상태유지 하지않음 <br>
+> 
 
 ### Stateful과 Stateless의 차이점
 
