@@ -38,21 +38,21 @@
 > - Request target -> 요청하는 리소스의 경로 <br>
 > - HTTP Version -> HTTP의 버전
 
-- Header
+- Header <br>
  HTTP 메세지의 부가적인 정보를 전송해주는 역할.
-  - Content-Length
+  - Content-Length <br>
     전달되는 엔터티의 크기나 길이.
-  - Content-Type
+  - Content-Type <br>
     엔터티의 미디어 타입. 데이터가 어떤 데이터 타입을 가지는지.
-  - Host
+  - Host <br>
     요청한 호스트의 도메인이나 IP 주소를 지정.
-  - Date
+  - Date <br>
     현재 HTTP 메시지가 생성된 시간을 표시한다.
-  - User-Agent
+  - User-Agent <br>
     클라이언트 소프트웨어의 식별자를 지정.
-  - Accept
+  - Accept <br>
     클라이언트가 수락 가능한 키디어 타입 목록 지정.
-- Body
+- Body <br>
  실제 전송하는 데이터가 들어간다. (본문) <br>
  post 요청일 경우 HTML 폼 데이터가 포함.
 ### 상태 코드란?
