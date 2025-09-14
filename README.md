@@ -17,17 +17,18 @@
 
 ## DNS란?
 > **Domain Name System**의 약자
-> 호스트 네임(www.naver.com)을 아이피 주소로 바꿔주는 역할
+> 호스트 네임(exwww.naver.com)을 아이피 주소로 바꿔주는 역할
 
 ## Stateful과 Stateless란?
-> 클라이언트(Client)와 서버(Server)간의 통신을 <br>
-> Stateful 상태유지 | Stateless 상태유지 하지않음 <br>
-> 
-
+> 클라이언트와 서버간의 통신을 <br>
+> Stateful 상태유지 ex) 로그인 유지 <br>
+> Stateless 상태유지 하지않음 <br>
 ### Stateful과 Stateless의 차이점
+> Stateful은 필요한 정보를 저장해서 쓰지만 Stateless는 매번 필요한 데이터를 클라이언트에게 요청해야한다.
 
 ## HTTP란?
-> 내용
+> **HyperText Transfer Protocol**, 웹상에서 다양한 데이터를 주고 받기 위한 프로토콜(통신규약)<br>
+> 보통 클라이언트와 서버 간의 요청과 응답으로 작동한다.
 ### HTTP 메세지 기본 구조 알아보기
 - Start Line
 - Header
